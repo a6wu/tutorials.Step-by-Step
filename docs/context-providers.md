@@ -409,7 +409,7 @@ response is rather long, but a snippet can be seen below:
 ```
 
 As you can see details of the current temperature and relative humidity are
-available within the attributes of the `current_observation`
+available within the attributes of the `main`
 
 ## Accessing the NGSI v1 QueryContext Endpoint
 
