@@ -5,7 +5,7 @@
 [FIWARE Draco](https://fiware-draco.readthedocs.io/en/latest/) - an alternative
 generic enabler which is used to persist context data into third-party databases
 using [Apache NIFI](https://nifi.apache.org) creating a historical view of the
-context. The in the same manner asthe
+context. The in the same manner as the
 [previous tutorial](historic-context-flume.md), activates the dummy IoT sensors
 persists measurements from those sensors into a database for further analysis.
 
@@ -25,7 +25,7 @@ available as
 
 [FIWARE Draco](https://fiware-draco.readthedocs.io/en/latest/) is an alternative
 generic enabler which is able to persist historical context data to a series of
-databases. Like **Cygnus** - **Draco** is able subscribe to chnages of state
+databases. Like **Cygnus** - **Draco** is able subscribe to changes of state
 from the **Orion Context Broker** and provide a funnel to process that data
 before persisting to a data sink.
 
@@ -43,7 +43,7 @@ A summary of the differences can be seen below:
 | listens on a single port                                                        | listens on separate ports for each input                                         |
 | Configured by a graphical interface                                             | Configured via config files                                                      |
 | Based on Apache NIFI                                                            | Based on Apache Flume                                                            |
-| **Draco** is docummented [here](https://fiware-draco.readthedocs.io/en/latest/) | **Cygnus** is documented [here](https://fiware-cygnus.readthedocs.io/en/latest/) |
+| **Draco** is documented [here](https://fiware-draco.readthedocs.io/en/latest/) | **Cygnus** is documented [here](https://fiware-cygnus.readthedocs.io/en/latest/) |
 
 <h4>Device Monitor</h4>
 
